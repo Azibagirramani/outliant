@@ -49,6 +49,7 @@ export default function FirstLayer() {
         width={"full"}
         maxWidth={"500px"}
         display={{ base: "none", lg: "flex" }}
+        position={"relative"}
       >
         <Box
           height={"full"}
@@ -57,10 +58,11 @@ export default function FirstLayer() {
           _after={{
             content: '""',
             width: 200,
-            height: 200,
+            height: 220,
             position: "absolute",
-            bg: "red",
-            translateY: -60,
+            bg: "#9D9D9D",
+            top: -20,
+            right: -20,
           }}
         ></Box>
       </Box>
